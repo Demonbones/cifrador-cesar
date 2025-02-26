@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Encryptor Cesar</title>
+    <!-- Favicon -->
+    <link
+      type="image/png"
+      sizes="64x64"
+      rel="icon"
+      href="./assets/icons/encriptar.png"
+    />
+    <!-- Iconos de Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container-encryptor">
+      <article class="encryptor">
+        <h1>Cesar Encryptor</h1>
+        <div class="encryptor__container-text">
+          <form action="" id="encryptor__form">
+            <input
+              class="encryptor__input"
+              type="text"
+              placeholder="Ingrese el texto"
+            />
+          </form>
+
+          <p class="encryptor__output"></p>
+        </div>
+
+        <div>
+          <input
+            type="range"
+            min="1"
+            max="20"
+            value="10"
+            name="encryptor__range"
+            id="encryptor__range"
+          />
+          <output>10</output>
+        </div>
+        <button class="btn-copy" type="button">
+          <i class="bx bx-copy"></i> Copiar
+        </button>
+      </article>
+    </section>
+  </body>
+</html>
