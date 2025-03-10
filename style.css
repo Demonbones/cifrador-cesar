@@ -47,6 +47,10 @@ body {
   width: 100%;
 }
 
+.encryptor__input::placeholder {
+  user-select: none;
+}
+
 .encryptor__output {
   word-break: break-all;
 
